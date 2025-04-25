@@ -1,0 +1,37 @@
+# .gitignore for Django (back-trade)
+
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Django migrations
+**/migrations/*
+!**/migrations/__init__.py
+
+# Virtual environment
+env/
+venv/
+.stf_env/
+.stf_env*/
+
+# VS Code & IDEs
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Node modules (in case you have JS in backend)
+node_modules/
+
+# Environment vars
+.env
+.env.*
