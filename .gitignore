@@ -35,3 +35,6 @@ node_modules/
 # Environment vars
 .env
 .env.*
+
+# Ignore all NIFTY CSVs
+ind_nifty*list.csv
